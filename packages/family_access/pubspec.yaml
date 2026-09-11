@@ -1,0 +1,15 @@
+name: family_access
+description: Visible, consent-based Android family sessions for Traccar.
+version: 1.0.0
+publish_to: none
+environment:
+  sdk: ^3.7.2
+dependencies:
+  flutter:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: org.traccar.family
+        pluginClass: FamilyPlugin
